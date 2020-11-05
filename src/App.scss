@@ -1,0 +1,56 @@
+$bg-primary: #5680E9;
+$bg-secondary: #5AB9EA;
+$text-primary: #84CEEB;
+$text-secondary: #C1C8E4;
+
+:root{
+  font-size: 17px;
+}
+
+body{
+  margin: 0;
+  padding: 0;
+  background-color: $bg-primary;
+  color: $text-primary;
+}
+body::-webkit-scrollbar{
+  width: 0.5rem;
+}
+body::-webkit-scrollbar-track{
+  background: $bg-secondary;
+}
+body::-webkit-scrollbar-thumb{
+  background: $bg-primary;
+}
+main{
+  margin-left: 6rem;
+  padding: 1rem;
+}
+nav{
+  background-color: $bg-secondary;
+  color: $text-secondary;
+  width:6rem;
+  height: 100vh;
+  position:fixed;
+}
+.navbar-nav{
+  display:flex;
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  flex-direction: column;
+  align-items: center;
+}
+.nav-link{
+  display: flex;
+  align-items: center;
+  height: 5em;
+  color: $text-primary;
+  text-decoration: none;
+}
+.nav-item{
+  width :100%;
+}
+.nav-item:last-child{
+  margin-top:auto;
+}
