@@ -1,0 +1,25 @@
+{
+    "is_a": [
+        "University of Waterloo Honours Computer Science Student",
+        "Problem-solving Enthusiast",
+        "human"
+    ],
+    "has_experience_in": [
+        "C++",
+        "Python",
+        [
+            "PHP",
+            "Laravel"
+        ],
+        "Node",
+        "Express",
+        "React",
+        "MySQL",
+        "MongoDB"
+    ],
+    "enjoys": [
+        "Cooking",
+        "Climbing",
+        "Making the Most Random Projects"
+    ]
+}

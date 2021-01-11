@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import EyeCatcher from './EyeCatcher';
+import EyeCatcher from './page1/EyeCatcher';
 
 class Content extends Component {
 	static state = {

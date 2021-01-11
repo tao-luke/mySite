@@ -1,62 +1,97 @@
-.eyeCatchContainer{
+.eyeCatchContainer {
     width: 100%;
     height: 100vh;
-    z-index:4;
+    z-index: 4;
 }
 
-
-.blurred-box{
-  position: relative;
-  width: 650px;
-  height: 350px;
-  top: calc(50% - 175px);
-  left: calc(50% - 325px);
-  background: inherit;
-  border-radius: 5px;
-  overflow: hidden;
-}
-
-.blurred-box:after{
- content: '';
- width: 700px;
- height: 350px;
- background: inherit; 
- position: absolute;
- left: -25px;
- right: 0;
- top: -25px;  
- bottom: 0;
- box-shadow: inset 0 0 0 200px rgba(255,255,255,0.05);
- filter: blur(10px) contrast(200%);
-
- // for orgainzing th sections
- display:flex;
- flex-direction: row;
-}
-
-.profile{
+.blurred-box {
+    position: relative;
+    width: 650px;
+    height: 350px;
+    top: calc(50% - 175px);
+    left: calc(50% - 325px);
+    background: inherit;
+    border-radius: 5px;
+    overflow: hidden;
     display: flex;
+    flex-direction: row;
+}
+
+.blurred-box:after {
+    content: "";
+    width: 700px;
+    height: 350px;
+    background: inherit;
+    position: absolute;
+    left: -25px;
+    right: 0;
+    top: -25px;
+    bottom: 0;
+    box-shadow: inset 0 0 0 200px rgba(255, 255, 255, 0.05);
+    filter: blur(10px) contrast(200%);
+
+    // for orgainzing th sections
+}
+
+.profile {
+    display: inline-flex;
     flex-direction: column;
-    max-width: 50%;
+    width: 50%;
     height: 100%;
     align-items: center;
     justify-content: space-evenly;
+
     //flex-grow: 0; possibly make this styled
-    img{ //circlify
+    img {
+        //circlify
         //flex-grow: 2;
         border-radius: 50%;
-        display: block;
-        width:180px; //! careful
-        height: 180px;//! careful
+        width: 180px; //! careful
+        height: 180px; //! careful
     }
-    button{
-        z-index:4;
-        width: 180px;//! careful
-        height:50px;//! careful
+    .link {
+        z-index: 4;
+        button {
+            width: 180px; //! careful
+            height: 50px; //! careful
+        }
     }
-    
 }
 
+.eyecatch {
+    top: 2%;
+    left: -1.5%;
+    position: relative;
+
+    border-radius: 10px;
+
+    opacity: 0.65;
+    z-index: 4;
+
+    background-color: black;
+
+    width: 50%;
+    height: 90%;
+    display: inline-block;
+    .pWrap {
+        padding: 3%;
+        pre {
+            padding-top: 0;
+            padding-bottom: 0;
+            margin-top: 0;
+            margin-bottom: 0;
+
+            color: white;
+            font-family: Consolas, monaco, monospace;
+            font-size: 10px;
+            font-style: normal;
+            font-variant: normal;
+            font-weight: 400;
+            line-height: 15px;
+            min-height: 15px;
+            // border-style: dashed;
+            overflow: hidden;
+        }
+    }
+}
 //...
-
-
