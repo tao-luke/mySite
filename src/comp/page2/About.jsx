@@ -40,8 +40,8 @@ class About extends Component {
 					<ul className="skill_list">
 						<li>C++</li>
 						<li>Python</li>
-						<li>MERN stack(mongo,express,react,node)</li>
-						<li>Laravel(PHP,Jquery)</li>
+						<li>MERN stack(Mongo, Express, React, Node)</li>
+						<li>Laravel(PHP, Jquery)</li>
 						<li>JS</li>
 					</ul>
 				</div>

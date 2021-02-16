@@ -1,17 +1,16 @@
 import React, { Component } from 'react';
 import EyeCatcher from './page1/EyeCatcher';
 import About from './page2/About';
-import Project from './page3/projectSummary';
+import Project from './page3/ProjectSummary';
 class Content extends Component {
 	static state = {
 		ref1: React.createRef(),
 		ref2: React.createRef(),
 		ref3: React.createRef(),
-		ref4: React.createRef(),
-		ref5: React.createRef()
+		ref4: React.createRef()
 	};
 	static doScroll(num) {
-		const { ref1, ref2, ref3, ref4, ref5 } = Content.state;
+		const { ref1, ref2, ref3, ref4 } = Content.state;
 		switch (num) {
 			case 1:
 				ref1.current.scrollIntoView({ behavior: 'smooth' });
@@ -24,9 +23,6 @@ class Content extends Component {
 				break;
 			case 4:
 				ref4.current.scrollIntoView({ behavior: 'smooth' });
-				break;
-			case 5:
-				ref5.current.scrollIntoView({ behavior: 'smooth' });
 				break;
 			default:
 				break;
@@ -45,21 +41,6 @@ class Content extends Component {
 					<Project />
 				</div>
 				<div className="mainChild" ref={Content.state.ref4}>
-					<b>EXPERIENCE</b>
-					Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the
-					industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type
-					and scrambled it to mLorem Ipsum is simply dummy text of the printing and typesetting industry.
-					Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown
-					printer took a galley of type and scrambled it to make a type specimen book. It has survived not
-					only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged.
-					It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages,
-					and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem
-					Ipsum.ake a type specimen book. It has survived not only five centuries, but also the leap into
-					electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the
-					release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop
-					publishing software like Aldus PageMaker including versions of Lorem Ipsum.
-				</div>
-				<div className="mainChild" ref={Content.state.ref5}>
 					<b>CONTACT SECTION</b>
 					Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the
 					industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type

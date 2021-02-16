@@ -97,7 +97,7 @@ class NavBar extends Component {
 							className="nav-link"
 							onClick={(e) => {
 								e.preventDefault();
-								handleScroll(5);
+								handleScroll(4);
 							}}
 							to="#"
 						>
