@@ -1,0 +1,32 @@
+@font-face {
+    font-family: bonve;
+    src: url("../resources/font/BonvenoCF-Light.otf") format("opentype");
+}
+.blurred-box2 {
+    position: relative;
+    width: 700px;
+    height: 400px;
+    top: calc(50% - 200px);
+    left: calc(50% - 350px);
+    background: inherit;
+    border-radius: 5px;
+    overflow: hidden;
+    display: flex;
+    flex-direction: row;
+}
+
+.blurred-box2:after {
+    content: "";
+    width: 700px;
+    height: 400px;
+    background: inherit;
+    position: absolute;
+    left: -25px;
+    right: 0;
+    top: -25px;
+    bottom: 0;
+    box-shadow: inset 0 0 0 200px rgba(255, 255, 255, 0.05);
+    filter: blur(10px) contrast(200%);
+
+    // for orgainzing th sections
+}

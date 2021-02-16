@@ -1,43 +1,50 @@
-$bg-primary: #5680E9;
-$bg-secondary: #5AB9EA;
-$text-primary: #84CEEB;
-$text-secondary: #C1C8E4;
-$iconHover: #8860D0;
+$bg-primary: #5680e9;
+$bg-secondary: #5ab9ea;
+$text-primary: #84ceeb;
+$text-secondary: #c1c8e4;
+$iconHover: #8860d0;
 //remove white space at top and bottom when scrolling
 html {
-    overflow: hidden;
-    height: 100%;
+  overflow: hidden;
+  height: 100%;
 }
 
 body {
-    overflow: auto;
-    height: 100%;
+  overflow: auto;
+  height: 100%;
 }
 
 //standard font size
-:root{
+:root {
   font-size: 17px;
 }
 
 //scroll bar creation
-.mainContainer::-webkit-scrollbar{
+.mainContainer::-webkit-scrollbar {
   width: 0.2rem;
 }
-.mainContainer::-webkit-scrollbar-track{
+.mainContainer::-webkit-scrollbar-track {
   background: $bg-secondary;
 }
-.mainContainer::-webkit-scrollbar-thumb{
+.mainContainer::-webkit-scrollbar-thumb {
   background: $bg-primary;
 }
 //content container beside scrollbar
-.mainContainer{
-  z-index:4;
-  width:auto;
-  height:100%;
+.mainContainer {
+  z-index: 4;
+  width: auto;
+  height: 100vh;
   overflow-y: scroll;
   overflow-x: hidden;
   display: flex;
   flex-direction: column;
+  padding: 0;
 }
 
-
+.mainChild {
+  height: 100vh;
+  min-height: 100vh;
+  margin-bottom: 3rem;
+  display: block;
+  width: 100%;
+}

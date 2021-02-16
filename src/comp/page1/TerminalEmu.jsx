@@ -6,7 +6,7 @@ class Terminal extends Component {
 		p: [ '$ ', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '' ]
 	};
 	componentDidMount() {
-		this.displayCommand('cat who_is_this_luke_guy.json', 0);
+		this.displayCommand('cat Luke_In_A_Nutshell.json', 0);
 	}
 	displayCommand = (string, counter) => {
 		if (counter >= string.length) {
@@ -29,7 +29,7 @@ class Terminal extends Component {
 			' "is_a": [',
 			'   "2nd Year University of Waterloo CS Student",',
 			'   "Problem-solving Enthusiast",',
-			'   "human"',
+			'   "human named Luke"',
 			' ],',
 			' "has_experience_in": [',
 			'   "C++",',
