@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import EyeCatcher from './page1/EyeCatcher';
 import About from './page2/About';
-import Project from '../comp/page3/ProjectSummary';
+import Project from './page3/projectSummary';
 class Content extends Component {
 	static state = {
 		ref1: React.createRef(),
