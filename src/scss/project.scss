@@ -5,9 +5,9 @@
 .blurred-box3 {
     position: relative;
     width: 700px;
-    height: 450px;
+    height: 400px;
     top: calc(50% - 225px);
-    left: calc(50% - 350px);
+    left: calc(50% - 375px);
     background: inherit;
     border-radius: 5px;
     overflow: hidden;
@@ -17,8 +17,8 @@
 
 .blurred-box3:after {
     content: "";
-    width: 700px;
-    height: 450px;
+    width: 725px;
+    height: 400px;
     background: inherit;
     position: absolute;
     left: -25px;
@@ -120,9 +120,14 @@
             }
             & > button {
                 width: auto;
+                opacity: 0.5;
                 height: auto;
+                transition: all 0.2s linear;
                 svg {
                     width: 100%;
+                }
+                &:hover {
+                    opacity: 1;
                 }
             }
         }
