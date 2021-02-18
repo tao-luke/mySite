@@ -54,7 +54,6 @@ $iconHover: #8860d0;
     transition: width ease 200ms;
 }
 .navbar-nav {
-    display: flex;
     list-style: none;
     padding: 0;
     margin: 0;
@@ -98,7 +97,7 @@ $iconHover: #8860d0;
     }
     .nav-link {
         height: 5rem;
-        display: block;
+        display: block !important;
         svg {
             min-width: 2rem;
             margin: 0rem 2rem;
