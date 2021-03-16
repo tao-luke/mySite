@@ -162,7 +162,7 @@ class Project extends Component {
 									className="btn btn-light"
 									aria-pressed="false"
 									onClick={() => {
-										this.incrementOffset(0);
+										this.incrementOffset(1);
 									}}
 								>
 									<svg
@@ -175,7 +175,7 @@ class Project extends Component {
 										strokeWidth="2"
 										strokeLinecap="round"
 										strokeLinejoin="round"
-										className="feather feather-arrow-left"
+										className="feather hori feather-arrow-left"
 									>
 										<line x1="19" y1="12" x2="5" y2="12" />
 										<polyline points="12 19 5 12 12 5" />
@@ -187,7 +187,7 @@ class Project extends Component {
 											<div className="card2">
 												<p className="description">{elem.short}</p>
 												<Link className="github" to={{ pathname: elem.link }} target="_blank">
-													<button className="btn btn-light btn-sm">
+													<button className="btn btn-light btn-sm gitbut">
 														<svg
 															xmlns="http://www.w3.org/2000/svg"
 															width="24"
@@ -209,7 +209,7 @@ class Project extends Component {
 								<button
 									className="btn btn-light"
 									onClick={() => {
-										this.incrementOffset(1);
+										this.incrementOffset(0);
 									}}
 								>
 									<svg
@@ -222,7 +222,7 @@ class Project extends Component {
 										strokeWidth="2"
 										strokeLinecap="round"
 										strokeLinejoin="round"
-										className="feather feather-arrow-right"
+										className="feather hori feather-arrow-right"
 									>
 										<line x1="5" y1="12" x2="19" y2="12" />
 										<polyline points="12 5 19 12 12 19" />

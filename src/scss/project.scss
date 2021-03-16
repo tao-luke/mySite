@@ -51,8 +51,12 @@
                 align-self: center;
             }
             svg {
-                width: 40%; //! careful
-                height: 40%; //! careful
+                width: 40%;
+                height: 40%;
+            }
+            .hori {
+                width: 2rem; //! careful
+                height: 2rem; //! careful
             }
             height: 100%;
             width: 100%;
@@ -114,7 +118,7 @@
                         margin-bottom: 5%;
                     }
                     svg {
-                        width: 100%;
+                        width: 1rem;
                     }
                 }
             }
