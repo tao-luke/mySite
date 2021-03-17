@@ -4,10 +4,6 @@
 }
 .blurred-box3 {
     position: relative;
-    width: 700px;
-    height: 400px;
-    top: calc(50% - 225px);
-    left: calc(50% - 375px);
     background: inherit;
     border-radius: 5px;
     overflow: hidden;
@@ -17,8 +13,6 @@
 
 .blurred-box3:after {
     content: "";
-    width: 725px;
-    height: 400px;
     background: inherit;
     position: absolute;
     left: -25px;
@@ -54,21 +48,15 @@
                 width: 40%;
                 height: 40%;
             }
-            .hori {
-                width: 2rem; //! careful
-                height: 2rem; //! careful
-            }
             height: 100%;
             width: 100%;
             display: flex;
-            flex-direction: row;
-            justify-content: space-around;
             align-items: center;
+            justify-content: space-around;
             .cardWrap {
                 box-sizing: border-box;
                 box-shadow: 0 20px 50px rgba(0, 0, 0, 0.6);
-                height: 50%;
-                width: 8rem;
+
                 display: flex;
                 opacity: 0.65;
                 border-radius: 5px;
@@ -99,6 +87,7 @@
                     z-index: 5;
                     opacity: 0;
                     display: flex;
+
                     flex-direction: column;
                     justify-content: center;
                     width: 100%;
@@ -115,7 +104,7 @@
                     }
                     .github {
                         margin-top: auto;
-                        margin-bottom: 5%;
+                        margin-bottom: 2%;
                     }
                     svg {
                         width: 1rem;
@@ -145,5 +134,71 @@
         text-align: left;
         color: white;
         font-size: x-large;
+    }
+}
+
+//for small
+@media only screen and (max-width: 700px) {
+    .blurred-box3 {
+        width: 85%;
+        height: 85%;
+        top: calc(7.5%);
+        left: calc(7.5%);
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-around;
+    }
+    .blurred-box3:after {
+        width: 110%;
+        height: 105%;
+        left: -25px;
+        right: 0;
+        top: -25px;
+        bottom: 0;
+        box-shadow: inset 0 0 0 200px rgba(255, 255, 255, 0.05);
+        filter: blur(10px) contrast(200%);
+    }
+    .showWindow {
+        flex-direction: column;
+        .hori {
+            width: 1.2rem;
+            height: 2rem;
+            transform: rotate(90deg);
+        }
+    }
+    .cardWrap {
+        max-height: 6.2rem;
+        width: 100%;
+    }
+}
+//for large
+@media only screen and (min-width: 700px) {
+    .blurred-box3 {
+        width: 700px;
+        height: 400px;
+        top: calc(50% - 200px);
+        left: calc(50% - 375px);
+    }
+    .blurred-box3:after {
+        width: 725px;
+        height: 400px;
+
+        left: -25px;
+        right: 0;
+        top: -25px;
+        bottom: 0;
+        box-shadow: inset 0 0 0 200px rgba(255, 255, 255, 0.05);
+        filter: blur(10px) contrast(200%);
+    }
+    .showWindow {
+        flex-direction: row;
+        .hori {
+            width: 2rem; //! careful
+            height: 2rem; //! careful
+        }
+    }
+    .cardWrap {
+        height: 50%;
+        width: 8rem;
     }
 }

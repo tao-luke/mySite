@@ -22,7 +22,7 @@ class Contact extends Component {
 						>
 							<line x1="22" y1="2" x2="11" y2="13" />
 							<polygon points="22 2 15 22 11 13 2 9 22 2" />
-						</svg>You can Find me here :)
+						</svg>You Can Find me Here :)
 					</p>
 					<div className="externalWrap">
 						<p className="description">
@@ -36,7 +36,7 @@ class Contact extends Component {
 								target="_blank"
 							>
 								<button className="btn btn-light">
-									<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 27 24">
+									<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 27 20">
 										<path d="M19 0h-14c-2.761 0-5 2.239-5 5v14c0 2.761 2.239 5 5 5h14c2.762 0 5-2.239 5-5v-14c0-2.761-2.238-5-5-5zm-11 19h-3v-11h3v11zm-1.5-12.268c-.966 0-1.75-.79-1.75-1.764s.784-1.764 1.75-1.764 1.75.79 1.75 1.764-.783 1.764-1.75 1.764zm13.5 12.268h-3v-5.604c0-3.368-4-3.113-4 0v5.604h-3v-11h3v1.765c1.396-2.586 7-2.777 7 2.476v6.759z" />
 									</svg>
 									Linkedin
@@ -59,7 +59,7 @@ class Contact extends Component {
 								target="_blank"
 							>
 								<button className="btn btn-light">
-									<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 27 24">
+									<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 27 20">
 										<path d="M22.675 0h-21.35c-.732 0-1.325.593-1.325 1.325v21.351c0 .731.593 1.324 1.325 1.324h11.495v-9.294h-3.128v-3.622h3.128v-2.671c0-3.1 1.893-4.788 4.659-4.788 1.325 0 2.463.099 2.795.143v3.24l-1.918.001c-1.504 0-1.795.715-1.795 1.763v2.313h3.587l-.467 3.622h-3.12v9.293h6.116c.73 0 1.323-.593 1.323-1.325v-21.35c0-.732-.593-1.325-1.325-1.325z" />
 									</svg>Facebook
 								</button>
@@ -72,22 +72,24 @@ class Contact extends Component {
 							to={{ pathname: 'mailto:luketao@icloud.com?subject=Hello:D' }}
 							target="_blank"
 						>
-							<svg
-								xmlns="http://www.w3.org/2000/svg"
-								width="24"
-								height="24"
-								viewBox="0 0 24 24"
-								fill="none"
-								stroke="currentColor"
-								strokeWidth="2"
-								strokeLinecap="round"
-								strokeLinejoin="round"
-								className="feather feather-inbox"
-							>
-								<polyline points="22 12 16 12 14 15 10 15 8 12 2 12" />
-								<path d="M5.45 5.11L2 12v6a2 2 0 0 0 2 2h16a2 2 0 0 0 2-2v-6l-3.45-6.89A2 2 0 0 0 16.76 4H7.24a2 2 0 0 0-1.79 1.11z" />
-							</svg>
-							<p className="emailLink">LukeTao@icloud.com</p>
+							<p className="emailLink">
+								{' '}
+								<svg
+									xmlns="http://www.w3.org/2000/svg"
+									width="20"
+									height="24"
+									viewBox="0 0 24 24"
+									fill="none"
+									stroke="currentColor"
+									strokeWidth="2"
+									strokeLinecap="round"
+									strokeLinejoin="round"
+									className="feather feather-inbox"
+								>
+									<polyline points="22 12 16 12 14 15 10 15 8 12 2 12" />
+									<path d="M5.45 5.11L2 12v6a2 2 0 0 0 2 2h16a2 2 0 0 0 2-2v-6l-3.45-6.89A2 2 0 0 0 16.76 4H7.24a2 2 0 0 0-1.79 1.11z" />
+								</svg>LukeTao@icloud.com
+							</p>
 						</Link>
 					</div>
 				</div>

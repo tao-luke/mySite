@@ -4,10 +4,6 @@
 }
 .blurred-box4 {
     position: relative;
-    width: 700px;
-    height: 400px;
-    top: calc(50% - 200px);
-    left: calc(50% - 375px);
     background: inherit;
     border-radius: 5px;
     overflow: hidden;
@@ -17,8 +13,6 @@
 
 .blurred-box4:after {
     content: "";
-    width: 725px;
-    height: 400px;
     background: inherit;
     position: absolute;
     left: -25px;
@@ -43,22 +37,18 @@
     .title {
         text-align: left;
         color: white;
-        font-size: x-large;
     }
     .externalWrap {
         width: 100%;
-        height: 10rem;
         display: flex;
         .description {
-            width: 50%;
             text-align: center;
         }
         & > .linkWrapper {
             width: 50%;
-            height: 90%;
             display: flex;
             flex-direction: column;
-            justify-content: space-around;
+
             align-items: center;
 
             & > .link {
@@ -71,20 +61,124 @@
     .emailWrapper {
         display: block;
         height: 3rem;
-        .title {
-            font-size: xx-large;
-            display: inline;
-        }
         .email {
             display: inline;
+
+            .emailLink {
+                display: inline;
+            }
+        }
+    }
+}
+
+//for small
+@media only screen and (max-width: 700px) {
+    .blurred-box4 {
+        width: 85%;
+        height: 85%;
+        top: calc(7.5%);
+        left: calc(7.5%);
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-around;
+    }
+    .blurred-box4:after {
+        width: 110%;
+        height: 105%;
+        left: -25px;
+        right: 0;
+        top: -25px;
+        bottom: 0;
+        box-shadow: inset 0 0 0 200px rgba(255, 255, 255, 0.05);
+        filter: blur(10px) contrast(200%);
+    }
+    .contactWrapper {
+        .title {
+            font-size: medium;
+        }
+        .externalWrap {
+            font-size: small;
+            flex-direction: column;
+            align-items: center;
+            height: 65%;
+            .description {
+                width: 100%;
+            }
+            & > .linkWrapper {
+                height: 100%;
+                & > .link {
+                    display: block;
+                    height: 3rem;
+                    width: 9rem;
+                    margin: 2%;
+                    button {
+                        width: 100%;
+                        height: 100%;
+                        svg {
+                            display: inline-block;
+                        }
+                    }
+                }
+            }
+        }
+        .emailWrapper {
+            width: 100%;
+            .email {
+                display: block;
+                .emailLink {
+                    width: 100%;
+                    display: inline-block;
+                    font-size: x-large;
+                    letter-spacing: 0.001rem;
+                    text-align: center;
+                }
+            }
+        }
+    }
+}
+//for large
+@media only screen and (min-width: 700px) {
+    .blurred-box4 {
+        width: 700px;
+        height: 400px;
+        top: calc(50% - 200px);
+        left: calc(50% - 375px);
+    }
+    .blurred-box4:after {
+        width: 725px;
+        height: 400px;
+
+        left: -25px;
+        right: 0;
+        top: -25px;
+        bottom: 0;
+        box-shadow: inset 0 0 0 200px rgba(255, 255, 255, 0.05);
+        filter: blur(10px) contrast(200%);
+    }
+    .contactWrapper {
+        .title {
+            font-size: x-large;
+        }
+        .externalWrap {
+            flex-direction: row;
+            height: 10rem;
+            .description {
+                width: 50%;
+            }
+            & > .linkWrapper {
+                justify-content: space-around;
+                height: 90%;
+            }
+        }
+    }
+    .emailWrapper {
+        .email {
             svg {
                 margin-bottom: calc(1.5rem - 12px);
             }
-            .emailLink {
-                font-size: xx-large;
-
-                display: inline;
-            }
+        }
+        .emailLink {
+            font-size: xx-large;
         }
     }
 }

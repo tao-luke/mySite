@@ -27,7 +27,7 @@ class Terminal extends Component {
 		const fileArr = [
 			'{',
 			' "is_a": [',
-			'   "2nd Year University of Waterloo CS Student",',
+			'   "University of Waterloo CS Student",',
 			'   "Problem-solving Enthusiast",',
 			'   "human named Luke"',
 			' ],',

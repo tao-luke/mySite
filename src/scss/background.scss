@@ -127,27 +127,16 @@ $iconHover: #8860d0;
 }
 
 //for small
-@media only screen and (max-width: 600px) {
+@media only screen and (max-width: 700px) {
     .navBar {
-        bottom: 0;
-        width: 100vw;
-        height: 6rem;
-    }
-    .link-text {
         display: none;
-    }
-    .logo {
-        display: none;
-    }
-    .navbar-nav {
-        flex-direction: row !important;
     }
     .BGcontainer {
         margin: 0;
     }
 }
 //for large
-@media only screen and (min-width: 600px) {
+@media only screen and (min-width: 700px) {
     .navBar {
         top: 0;
         width: 6rem;

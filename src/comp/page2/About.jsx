@@ -36,12 +36,12 @@ class About extends Component {
 						database and improving its backend Python scripts.{' '}
 					</p>
 
-					<p className="content"> Languages/Frameworks: </p>
+					<p className="content"> Familiar Languages/Frameworks </p>
 					<ul className="skill_list">
 						<li>C++</li>
 						<li>Python</li>
-						<li>MERN stack(MongoDB, Express, React, Node)</li>
-						<li>Laravel(PHP, Jquery)</li>
+						<li>MERN stack (React, Node, Express, MongoDB)</li>
+						<li>Laravel (PHP, Jquery)</li>
 						<li>JS</li>
 					</ul>
 				</div>

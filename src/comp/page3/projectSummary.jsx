@@ -162,7 +162,7 @@ class Project extends Component {
 									className="btn btn-light"
 									aria-pressed="false"
 									onClick={() => {
-										this.incrementOffset(1);
+										this.incrementOffset(0);
 									}}
 								>
 									<svg
@@ -209,7 +209,7 @@ class Project extends Component {
 								<button
 									className="btn btn-light"
 									onClick={() => {
-										this.incrementOffset(0);
+										this.incrementOffset(1);
 									}}
 								>
 									<svg
