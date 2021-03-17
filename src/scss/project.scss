@@ -52,7 +52,7 @@
             width: 100%;
             display: flex;
             align-items: center;
-            justify-content: space-around;
+            justify-content: space-between;
             .cardWrap {
                 box-sizing: border-box;
                 box-shadow: 0 20px 50px rgba(0, 0, 0, 0.6);
@@ -115,6 +115,7 @@
                 width: auto;
                 opacity: 0.5;
                 height: auto;
+
                 transition: all 0.2s linear;
                 svg {
                     width: 100%;
@@ -160,6 +161,7 @@
     }
     .showWindow {
         flex-direction: column;
+
         .hori {
             width: 1.2rem;
             height: 2rem;
@@ -193,13 +195,13 @@
     }
     .showWindow {
         flex-direction: row;
-        .hori {
-            width: 2rem; //! careful
-            height: 2rem; //! careful
+        .horiB {
+            max-width: 15%; //! careful
+            max-height: 15%; //! careful
         }
     }
     .cardWrap {
-        height: 50%;
+        height: 60%;
         width: 8rem;
     }
 }

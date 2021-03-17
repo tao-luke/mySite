@@ -159,7 +159,7 @@ class Project extends Component {
 						{focusViewIndex === -1 && (
 							<div className="showWindow">
 								<button
-									className="btn btn-light"
+									className="btn btn-light horiB"
 									aria-pressed="false"
 									onClick={() => {
 										this.incrementOffset(0);
@@ -207,7 +207,7 @@ class Project extends Component {
 									);
 								})}
 								<button
-									className="btn btn-light"
+									className="btn btn-light horiB"
 									onClick={() => {
 										this.incrementOffset(1);
 									}}
