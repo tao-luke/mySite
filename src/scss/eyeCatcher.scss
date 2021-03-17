@@ -64,7 +64,7 @@
 
             color: white;
             font-family: Consolas, monaco, monospace;
-            font-size: 10px;
+
             font-style: normal;
             font-variant: normal;
             font-weight: 400;
@@ -118,6 +118,9 @@
         height: 100%;
         margin: 5%;
         margin-top: 1%;
+        .pWrap {
+            font-size: 15px;
+        }
     }
 }
 //for large
@@ -160,5 +163,8 @@
 
         width: 50%;
         height: 90%;
+        .pWrap {
+            font-size: 13px;
+        }
     }
 }
