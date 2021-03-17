@@ -21,7 +21,7 @@ class Project extends Component {
 						strokeWidth="2"
 						strokeLinecap="round"
 						strokeLinejoin="round"
-						className="feather feather-terminal"
+						className="feather feather-terminal name"
 					>
 						<polyline points="4 17 10 11 4 5" />
 						<line x1="12" y1="19" x2="20" y2="19" />
@@ -43,7 +43,7 @@ class Project extends Component {
 						strokeWidth="2"
 						strokeLinecap="round"
 						strokeLinejoin="round"
-						className="feather feather-book-open"
+						className="feather feather-book-open name"
 					>
 						<path d="M2 3h6a4 4 0 0 1 4 4v14a3 3 0 0 0-3-3H2z" />
 						<path d="M22 3h-6a4 4 0 0 0-4 4v14a3 3 0 0 1 3-3h7z" />
@@ -66,7 +66,7 @@ class Project extends Component {
 						strokeWidth="2"
 						strokeLinecap="round"
 						strokeLinejoin="round"
-						className="feather feather-share-2"
+						className="feather feather-share-2 name"
 					>
 						<circle cx="18" cy="5" r="3" />
 						<circle cx="6" cy="12" r="3" />
@@ -92,7 +92,7 @@ class Project extends Component {
 						strokeWidth="2"
 						strokeLinecap="round"
 						strokeLinejoin="round"
-						className="feather feather-lock"
+						className="feather feather-lock name"
 					>
 						<rect x="3" y="11" width="18" height="11" rx="2" ry="2" />
 						<path d="M7 11V7a5 5 0 0 1 10 0v4" />
