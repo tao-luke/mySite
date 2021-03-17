@@ -83,6 +83,7 @@
     }
     .introWrap .skill_list li {
         word-wrap: normal;
+        font-size: medium;
     }
     .introWrap {
         width: 100%;
@@ -113,9 +114,10 @@
     .introWrap {
         letter-spacing: 0.1rem;
         .title {
-            font-size: x-large;
+            font-size: large;
         }
         .content {
+            margin-top: 0.5rem;
             font-size: small;
         }
     }

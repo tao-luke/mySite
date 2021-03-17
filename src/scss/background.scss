@@ -79,7 +79,9 @@ $iconHover: #8860d0;
         transition: all ease 300ms;
     }
 }
-
+.link-text {
+    pointer-events: none;
+}
 .logo {
     font-weight: bold;
     height: 5rem;
@@ -93,7 +95,6 @@ $iconHover: #8860d0;
     .link-text {
         display: inline-block;
         position: absolute;
-        pointer-events: none;
         opacity: 0;
     }
     .nav-link {
