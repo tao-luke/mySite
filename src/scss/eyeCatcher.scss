@@ -126,14 +126,18 @@
 //for large
 @media only screen and (min-width: 700px) {
     .blurred-box {
-        width: 650px;
-        height: 350px;
-        top: calc(50% - 175px);
-        left: calc(50% - 350px);
+        // width: 650px;
+        width: 60%;
+        // height: 350px;
+        height: 50%;
+        top: calc(25%);
+        left: calc(20%);
     }
     .blurred-box:after {
-        width: 700px;
-        height: 350px;
+        // width: 700px;
+        width: 110%;
+        // height: 350px;
+        height: 100%;
 
         left: -25px;
         right: 0;
@@ -147,12 +151,12 @@
         height: 100%;
         justify-content: space-evenly;
         img {
-            width: 180px; //! careful
-            height: 180px; //! careful
+            width: 13rem; //! careful
+            height: 13rem; //! careful
         }
         .link {
             button {
-                width: 180px; //! careful
+                width: 12rem; //! careful
                 height: 50px; //! careful
             }
         }
@@ -164,7 +168,7 @@
         width: 50%;
         height: 90%;
         .pWrap {
-            font-size: 13px;
+            font-size: 0.9rem;
         }
     }
 }

@@ -125,14 +125,14 @@
 //for large
 @media only screen and (min-width: 700px) {
     .blurred-box2 {
-        width: 700px;
-        height: 400px;
-        top: calc(50% - 200px);
-        left: calc(50% - 375px);
+        width: 60%;
+        height: 50%;
+        top: calc(25%);
+        left: calc(20%);
     }
     .blurred-box2:after {
-        width: 725px;
-        height: 400px;
+        width: 110%;
+        height: 105%;
 
         left: -25px;
         right: 0;
