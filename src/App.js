@@ -2,13 +2,12 @@ import React from 'react';
 import './App.scss';
 import Helmet from 'react-helmet';
 import Page from './comp/Page';
-import favicon from './favicon.ico';
 function App() {
 	return (
 		<React.Fragment>
 			<Helmet>
 				<title>Luke Tao </title>
-				<img src={favicon} className="App-logo" alt="logo" />
+
 				<meta charset="UTF-8" />
 				<meta
 					name="description"
