@@ -93,9 +93,6 @@
         filter: blur(10px) contrast(200%);
     }
     .contactWrapper {
-        .title {
-            font-size: medium;
-        }
         .externalWrap {
             font-size: small;
             flex-direction: column;
@@ -132,6 +129,30 @@
                     letter-spacing: 0.001rem;
                     text-align: center;
                 }
+            }
+        }
+    }
+}
+@media only screen and (max-height: 763px) {
+    .contactWrapper {
+        .title {
+            font-size: medium;
+        }
+        .externalWrap {
+            .description {
+                font-size: small;
+            }
+        }
+    }
+}
+@media only screen and (min-height: 763px) {
+    .contactWrapper {
+        .title {
+            font-size: large;
+        }
+        .externalWrap {
+            .description {
+                font-size: medium;
             }
         }
     }

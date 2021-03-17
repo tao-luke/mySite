@@ -161,10 +161,13 @@
     }
     .showWindow {
         flex-direction: column;
-
-        .hori {
+        .horiB {
             width: 1.2rem;
             height: 2rem;
+        }
+        .hori {
+            width: 100%;
+            height: 100%;
             transform: rotate(90deg);
         }
     }
