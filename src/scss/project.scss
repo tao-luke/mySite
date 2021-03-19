@@ -148,7 +148,7 @@
 }
 
 //for small
-@media only screen and (max-width: 700px) {
+@media only screen and (max-width: 1000px) {
     .blurred-box3 {
         width: 85%;
         height: 80%;
@@ -195,13 +195,20 @@
         margin: 0.5rem;
     }
 }
-//for large
+
 @media only screen and (min-width: 700px) {
+    .blurred-box3 {
+        left: calc(7.5% - 3rem);
+    }
+}
+
+//for large
+@media only screen and (min-width: 1000px) {
     .blurred-box3 {
         width: 60%;
         height: 50%;
         top: calc(25%);
-        left: calc(20%);
+        left: calc(20% - 3rem);
     }
     .blurred-box3:after {
         width: 110%;
@@ -229,8 +236,8 @@
     }
     .cardWrap {
         height: 60%;
-        min-width: 10rem;
-        max-width: 10rem;
-        margin: 1rem;
+        min-width: 15vw;
+        max-width: 15vw;
+        margin: 0.2vw;
     }
 }

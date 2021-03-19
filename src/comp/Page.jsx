@@ -2,8 +2,13 @@ import React, { Component } from 'react';
 import NavBar from './NavBar';
 import Content from './Content';
 import '../scss/background.scss';
+import $ from 'jquery';
+import Error from './Error';
 class Page extends Component {
 	render() {
+		if ($(window).height() < 720) {
+			return <Error />;
+		}
 		return (
 			<div className="wrap">
 				<NavBar />
