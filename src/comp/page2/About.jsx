@@ -26,14 +26,14 @@ class About extends Component {
 						Experience
 					</p>
 					<p className="content">
-						I am currently working as a C++ application engineer at Kaleidescape, where I create features in
-						hardware-specific LAN environments.
+						I am currently working as a C++ software engineer at Kaleidescape, where I deploy/optimize cool
+						features in hardware-specific LAN environments.
 					</p>
 					<p className="content">
 						{' '}
-						Previously, I worked as an Full Stack Developer at Digital Extremes. My responsibilities ranged
-						from maintaining the existing site content in a Laravel framework to scaling up the MySQL
-						database and improving its backend Python scripts.{' '}
+						Previously, I worked as a Full Stack Developer at Digital Extremes. My responsibilities ranged
+						from maintaining site integrity in a Laravel framework to scaling up the entire backend in SQL
+						and PHP and upgrading it with super efficient Python scripts!
 					</p>
 
 					<p className="content"> Familiar Languages/Frameworks </p>
