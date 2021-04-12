@@ -27,13 +27,14 @@ class About extends Component {
 					</p>
 					<p className="content">
 						I am currently working as a C++ software engineer at Kaleidescape, where I deploy/optimize cool
-						features in hardware-specific LAN environments.
+						stuff on a world-leading video player! I regularly deal with image file,compression, and
+						run-time optimization on low-memory environments.
 					</p>
 					<p className="content">
-						{' '}
 						Previously, I worked as a Full Stack Developer at Digital Extremes. My responsibilities ranged
 						from maintaining site integrity in a Laravel framework to scaling up the entire backend in SQL
-						and PHP and upgrading it with super efficient Python scripts!
+						and PHP. I also helped upgrade the back-end with efficient Python scripts, which increased the
+						productivity of the Media team by over 2 folds!
 					</p>
 
 					<p className="content"> Familiar Languages/Frameworks </p>

@@ -38,7 +38,7 @@ class Terminal extends Component {
 			'   ["React","Node","Express","MongoDB"],',
 			' ],',
 			' "LOVES": [',
-			'   "Meeting New People",',
+			'   "Discussions(like any!)",',
 			'   "Cooking"',
 			'   "Climbing",',
 			'   "Making the Most Random Projects"',
