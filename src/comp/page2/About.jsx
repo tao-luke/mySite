@@ -27,8 +27,8 @@ class About extends Component {
 					</p>
 					<p className="content">
 						I am currently working as a C++ software engineer at Kaleidescape, where I deploy/optimize cool
-						stuff on a world-leading video player! I regularly deal with image file,compression, and
-						run-time optimization on low-memory environments.
+						stuff on some of the best video players available! I regularly deal with image file,compression,
+						and run-time optimization on low-memory environments.
 					</p>
 					<p className="content">
 						Previously, I worked as a Full Stack Developer at Digital Extremes. My responsibilities ranged
