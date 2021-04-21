@@ -2,7 +2,7 @@ import React, { Component } from 'react';
 import '../../scss/eyeCatcher.scss';
 import avatar from '../../resources/image/profile.png';
 import { Link } from 'react-router-dom';
-import Luke from '../../resources/file/Luke.pdf';
+import Luke from '../../resources/file/LukeResume.pdf';
 import Terminal from './TerminalEmu';
 class EyeCatcher extends Component {
 	state = {};
