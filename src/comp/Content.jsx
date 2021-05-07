@@ -3,6 +3,7 @@ import EyeCatcher from './page1/EyeCatcher';
 import About from './page2/About';
 import Project from './page3/projectSummary';
 import Contact from './page4/FindMe';
+import $ from 'jquery';
 class Content extends Component {
 	static state = {
 		ref1: React.createRef(),
@@ -29,12 +30,25 @@ class Content extends Component {
 				break;
 		}
 	}
+	componentDidMount() {
+		if ($(window).height() < 750) {
+			setTimeout(() => {
+				Content.state.ref1.current.scrollIntoView({ behavior: 'smooth' });
+			}, 700);
+		}
+	}
 	render() {
 		return (
 			<main className="mainContainer">
-				<div className="mainChild" ref={Content.state.ref1}>
-					<EyeCatcher />
-				</div>
+				{$(window).height() < 750 ? (
+					<div className="mainChild">
+						<EyeCatcher tmpRef={Content.state.ref1} />
+					</div>
+				) : (
+					<div className="mainChild" ref={Content.state.ref1}>
+						<EyeCatcher />
+					</div>
+				)}
 				<div className="mainChild" ref={Content.state.ref2}>
 					<About />
 				</div>

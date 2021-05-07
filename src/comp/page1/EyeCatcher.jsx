@@ -8,16 +8,14 @@ class EyeCatcher extends Component {
 	state = {};
 	render() {
 		return (
-			<div className="eyeCatchContainer">
-				<div className="blurred-box">
-					<div className="profile">
-						<img src={avatar} alt="Luke's Profile :)" />
-						<Link className="link" to={Luke} target="_blank">
-							<button className="btn btn-outline-success"> Resume</button>
-						</Link>
-					</div>
-					<Terminal />
+			<div className="blurred-box" ref={this.props.tmpRef}>
+				<div className="profile">
+					<img src={avatar} alt="Luke's Profile :)" />
+					<Link className="link" to={Luke} target="_blank">
+						<button className="btn btn-outline-success"> Resume</button>
+					</Link>
 				</div>
+				<Terminal />
 			</div>
 		);
 	}

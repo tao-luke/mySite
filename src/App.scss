@@ -10,10 +10,6 @@ html {
   font-size: 100%;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
 body {
   overflow: auto;
   height: 100%;
@@ -49,9 +45,9 @@ body {
     margin: 0;
   }
   .mainChild {
-    height: 100vh;
-    min-height: 100vh;
-    margin-bottom: 4rem;
+    min-height: 49rem;
+    height: 100%;
+    margin-bottom: 15vh;
     display: block;
     width: 100%;
   }
