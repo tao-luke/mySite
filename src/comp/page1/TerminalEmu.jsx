@@ -27,9 +27,10 @@ class Terminal extends Component {
 		const fileArr = [
 			'{',
 			' "is_a": [',
-			'   "University of Waterloo CS Student",',
-			'   "Problem-solving Enthusiast",',
-			'   "human named Luke (•̀ᴗ•́)و ̑̑"',
+			'   "University of Waterloo Enriched CS Student",',
+			'   "Low-level Performance Software Design Addict"',
+			'   "Problem-Solving Enthusiast",',
+			'   "Human named Luke (•̀ᴗ•́)و ̑̑"',
 			' ],',
 			' "has_experience_in": [',
 			'   "C++",',
@@ -38,10 +39,10 @@ class Terminal extends Component {
 			'   ["React","Node","Express","MongoDB"],',
 			' ],',
 			' "LOVES": [',
-			'   "Discussions(like any!)",',
-			'   "Cooking"',
-			'   "Climbing",',
-			'   "Making the Most Random Projects"',
+			'   "Talking ( connect with me !!)",',
+			'   "Cooking, With a Passion in Plating Colorful Veggies"',
+			'   "Rock Climbing. ( dynamic > static )",',
+			'   "Making Cool Projects ( check them out below! )"',
 			' ]',
 			'}'
 		]; //18lines

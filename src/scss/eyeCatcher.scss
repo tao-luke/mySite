@@ -127,11 +127,13 @@
 @media only screen and (min-width: 700px) {
     .blurred-box {
         // width: 650px;
-        width: 60%;
+        width: 70%;
         // height: 350px;
         height: 50%;
         top: calc(25%);
         left: calc(20% - 3rem);
+        justify-content: space-evenly;
+        align-items: center;
     }
     .blurred-box:after {
         // width: 700px;
@@ -147,34 +149,26 @@
         filter: blur(500px) contrast(300%);
     }
     .profile {
-        width: 50%;
+        max-width: 50%;
+        min-width: 15vw;
         height: 100%;
         justify-content: space-evenly;
         img {
-            width: 13rem; //! careful
-            height: 13rem; //! careful
+            width: calc(min(200px, 23vw)); //! careful
+            height: auto; //! careful
         }
         .link {
             button {
-                width: 12rem; //! careful
-                height: 50px; //! careful
+                width: 13vw; //! careful
+                height: 7vh; //! careful
             }
         }
     }
     .eyecatch {
-        top: 2%;
-        left: -1.5%;
-
         width: 50%;
         height: 90%;
         .pWrap {
-            font-size: 1.3vw;
+            font-size: calc(min(1.6vw, 15px));
         }
-    }
-}
-
-@media only screen and (min-width: 1000px) {
-    .pWrap {
-        font-size: 0.8rem !important;
     }
 }
