@@ -11,7 +11,7 @@ class Error extends Component {
 				<div className="stars2" />
 				<p className="errormsg">
 					{' '}
-					Sorry, this site doesn't support view window height less than 720px at the moment ~, try adjusting
+					Sorry, this site doesn't support view window width less than 420px at the moment ~, try adjusting
 					and refreshing. Sorry for the inconvenience!
 				</p>
 			</div>

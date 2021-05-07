@@ -6,7 +6,7 @@ import $ from 'jquery';
 import Error from './Error';
 class Page extends Component {
 	render() {
-		if ($(window).height() < 720) {
+		if ($(window).width() < 420) {
 			return <Error />;
 		}
 		return (
