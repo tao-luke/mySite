@@ -224,7 +224,7 @@
         }
         .description {
             letter-spacing: 0;
-            font-size: calc(min(calc(max(9px, 1.4vh)), calc(max(9px, 2.5vw)), 16px)) !important;
+            font-size: calc(min(max(9px, 1.4vh), max(9px, 2.5vw), 16px)) !important;
         }
     }
     .cardWrap {
