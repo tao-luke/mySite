@@ -128,11 +128,6 @@
             }
         }
     }
-    .title {
-        text-align: left;
-        color: white;
-        font-size: x-large;
-    }
 }
 
 //for small
@@ -153,6 +148,11 @@
         bottom: 0;
         box-shadow: inset 200px 200px 200px 200px rgba(255, 255, 255, 0.05);
         filter: blur(10px) contrast(200%);
+    }
+    .title {
+        letter-spacing: 0.1rem;
+        margin-bottom: 2.2vh;
+        font-size: calc(min(max(1.9vw, 13px), max(5.1vh, 13px)));
     }
     .projectWrap {
         width: 100%;
@@ -199,6 +199,11 @@
         bottom: 0;
         box-shadow: inset 200px 200px 200px 200px rgba(255, 255, 255, 0.05);
         filter: blur(200px) contrast(200%);
+    }
+    .title {
+        letter-spacing: 0.1rem;
+        margin-bottom: 2.2vh;
+        font-size: calc(min(max(2vw, 15px), max(5.3vh, 15px)));
     }
     .projectWrap {
         width: 100%;
