@@ -31,7 +31,7 @@ class Content extends Component {
 		}
 	}
 	componentDidMount() {
-		if ($(window).height() < 750) {
+		if ($(window).height() < 24 * parseInt(getComputedStyle(document.documentElement).fontSize)) {
 			setTimeout(() => {
 				Content.state.ref1.current.scrollIntoView({ behavior: 'smooth' });
 			}, 700);
@@ -40,7 +40,7 @@ class Content extends Component {
 	render() {
 		return (
 			<main className="mainContainer">
-				{$(window).height() < 750 ? (
+				{$(window).height() < 600 ? (
 					<div className="mainChild">
 						<EyeCatcher tmpRef={Content.state.ref1} />
 					</div>

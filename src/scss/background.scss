@@ -139,7 +139,7 @@ $iconHover: #8860d0;
 }
 
 //for small
-@media only screen and (max-width: 620px) {
+@media only screen and (max-width: 620px), (max-height: 310px) {
     .navBar {
         display: none;
     }
@@ -148,7 +148,7 @@ $iconHover: #8860d0;
     }
 }
 //for large
-@media only screen and (min-width: 620px) {
+@media only screen and (min-width: 620px) and (min-height: 310px) {
     .navBar {
         top: 0;
         width: 6rem;
