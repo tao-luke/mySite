@@ -151,7 +151,8 @@
     }
     .contactWrapper {
         .title {
-            font-size: large;
+            letter-spacing: 0.1rem;
+            font-size: calc(min(max(1.6vw, 16px), max(4.8vh, 16px)));
         }
         .externalWrap {
             flex-direction: row;
@@ -160,7 +161,7 @@
             justify-content: space-evenly;
             .description {
                 width: 50%;
-                font-size: 92% !important;
+                font-size: 91% !important;
             }
             & > .linkWrapper {
                 width: auto;
