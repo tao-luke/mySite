@@ -12,11 +12,14 @@ The idea behind the design is really simple, like literally. I have always been 
 
 Please let me know if anything seems off or just have an idea to share ~
 
+## Incoming Changes:
+- blog page hosting a collection of my writings/articles
+- youtube section
+- and MORE
+
 ----
 
 While the project is entirely constructed by me, I must thank my gf for the wonderful color scheme and star patterns^^
 
 furthermore, the icons can be found on materialUI and the font is bonve from google. 
-
-
 
