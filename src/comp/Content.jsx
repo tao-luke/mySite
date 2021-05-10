@@ -40,15 +40,9 @@ class Content extends Component {
 	render() {
 		return (
 			<main className="mainContainer">
-				{$(window).height() < 600 ? (
-					<div className="mainChild">
-						<EyeCatcher tmpRef={Content.state.ref1} />
-					</div>
-				) : (
-					<div className="mainChild" ref={Content.state.ref1}>
-						<EyeCatcher />
-					</div>
-				)}
+				<div className="mainChild" ref={Content.state.ref1}>
+					<EyeCatcher />
+				</div>
 				<div className="mainChild" ref={Content.state.ref2}>
 					<About />
 				</div>
