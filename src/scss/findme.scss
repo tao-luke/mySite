@@ -151,17 +151,19 @@
     }
     .contactWrapper {
         .title {
-            font-size: x-large;
+            font-size: large;
         }
         .externalWrap {
             flex-direction: row;
             align-items: center;
             max-height: 13rem;
+            justify-content: space-evenly;
             .description {
                 width: 50%;
                 font-size: 92% !important;
             }
             & > .linkWrapper {
+                width: auto;
                 justify-content: center !important;
                 height: auto;
                 .link {
@@ -169,6 +171,9 @@
                     display: flex;
                     margin: 0;
                     margin-top: 1rem;
+                }
+                .link:last-child {
+                    margin-bottom: 1rem;
                 }
                 button {
                     min-width: 8rem;
