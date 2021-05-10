@@ -8,7 +8,7 @@
 
 Demoed above is a sample of my website constructed using React, Node, Scss, Jquery, Babel, and Boostrap.
 
-The idea behind the design is really simple, like litteraly. I have always been a fan of power in simplicity, and I think outspace is super awesome and epic. so ya,  I combined them to create this website.
+The idea behind the design is really simple, like literally. I have always been a fan of power in simplicity, and I think outspace is super awesome and epic. so ya,  I combined them to create this website.
 
 Please let me know if anything seems off or just have an idea to share ~
 
