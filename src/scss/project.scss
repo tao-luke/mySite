@@ -172,7 +172,7 @@
             transform: rotate(90deg);
         }
         .description {
-            font-size: x-small;
+            font-size: calc(max(11px,2.2vw)) !important;
         }
     }
     .cardWrap {
@@ -229,11 +229,11 @@
         }
         .description {
             letter-spacing: 0;
-            font-size: calc(min(max(9px, 1.4vh), max(9px, 2.5vw), 16px)) !important;
+            font-size: calc(min(max(1vw,1.5vh), 14px)) !important;
         }
     }
     .cardWrap {
-        height: 70%;
-        width: 25%;
+        height: calc(max(70%,20vh));
+        width: calc(max(25%,120px));
     }
 }

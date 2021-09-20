@@ -26,21 +26,20 @@ class About extends Component {
 						Experience
 					</p>
 					<p className="content">
-						I currently work as a C++ software developer at Kaleidescape, where I deploy/optimize cool stuff
-						on some of the best video players available! I regularly deal with image file,compression, and
+						I currently work at Huawei Canada as a software engineer with a focus on verification and authetication.
+					</p>
+					<p className="content">
+						Previously, I worked as a systems engineer at Kaleidescape, where I built cool features
+						on one of the best video players available on the market! I regularly dealt with image file, compression, and
 						run-time optimization on low-memory environments.
 					</p>
 					<p className="content">
-						Previously, I worked as a Full Stack Developer at Digital Extremes. My responsibilities ranged
-						from maintaining site integrity in a Laravel framework to scaling up the entire backend in SQL
-						and PHP. I also helped upgrade the back-end with efficient Python scripts, which increased the
-						productivity of the Media team by over 2 folds!
+						Outside of work, I am currently interested in computer vision and NLP, with some projects in active development :)
 					</p>
-
 					<p className="content skill_list_title"> Familiar Languages/Frameworks </p>
 					<ul className="skill_list">
 						<li>C++</li>
-						<li>Python</li>
+						<li>Python, Pytorch, OpenCV...</li>
 						<li>MERN stack (React, Node, Express, MongoDB)</li>
 						<li>Laravel (PHP, Jquery)</li>
 						<li>JS</li>
