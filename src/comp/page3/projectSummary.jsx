@@ -53,25 +53,11 @@ class Project extends Component {
 				)
 			},
 			{
-				title: 'Lnote',
-				short: 'A simple and optimized diary system to create the perfect gift for your special other !',
-				link: 'https://github.com/tao-luke/Lnote',
+				title: 'Sweet&Salty',
+				short: 'An optimized,elegant dish recommandation tool that turns your leftover ingredients to declious,readly preparable recipes',
+				link: 'https://github.com/tao-https://github.com/jennyy-lei/SweetAndSalty/Lnote',
 				svg: (
-					<svg
-						xmlns="http://www.w3.org/2000/svg"
-						width="24"
-						height="24"
-						viewBox="0 0 24 24"
-						fill="none"
-						stroke="currentColor"
-						strokeWidth="2"
-						strokeLinecap="round"
-						strokeLinejoin="round"
-						className="feather feather-book-open name"
-					>
-						<path d="M2 3h6a4 4 0 0 1 4 4v14a3 3 0 0 0-3-3H2z" />
-						<path d="M22 3h-6a4 4 0 0 0-4 4v14a3 3 0 0 1 3-3h7z" />
-					</svg>
+					<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" className="feather feather-search name"><circle cx="11" cy="11" r="8"></circle><line x1="21" y1="21" x2="16.65" y2="16.65"></line></svg>
 				)
 			},
 			{
@@ -97,6 +83,28 @@ class Project extends Component {
 						<circle cx="18" cy="19" r="3" />
 						<line x1="8.59" y1="13.51" x2="15.42" y2="17.49" />
 						<line x1="15.41" y1="6.51" x2="8.59" y2="10.49" />
+					</svg>
+				)
+			},
+			{
+				title: 'Lnote',
+				short: 'A simple and optimized diary system to create the perfect gift for your special other !',
+				link: 'https://github.com/tao-luke/Lnote',
+				svg: (
+					<svg
+						xmlns="http://www.w3.org/2000/svg"
+						width="24"
+						height="24"
+						viewBox="0 0 24 24"
+						fill="none"
+						stroke="currentColor"
+						strokeWidth="2"
+						strokeLinecap="round"
+						strokeLinejoin="round"
+						className="feather feather-book-open name"
+					>
+						<path d="M2 3h6a4 4 0 0 1 4 4v14a3 3 0 0 0-3-3H2z" />
+						<path d="M22 3h-6a4 4 0 0 0-4 4v14a3 3 0 0 1 3-3h7z" />
 					</svg>
 				)
 			},
