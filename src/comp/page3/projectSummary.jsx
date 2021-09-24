@@ -55,7 +55,7 @@ class Project extends Component {
 			{
 				title: 'Sweet&Salty',
 				short: 'An optimized,elegant dish recommandation tool that turns your leftover ingredients to declious,readly preparable recipes',
-				link: 'https://github.com/tao-https://github.com/jennyy-lei/SweetAndSalty/Lnote',
+				link: 'https://github.com/jennyy-lei/SweetAndSalty',
 				svg: (
 					<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" className="feather feather-search name"><circle cx="11" cy="11" r="8"></circle><line x1="21" y1="21" x2="16.65" y2="16.65"></line></svg>
 				)
