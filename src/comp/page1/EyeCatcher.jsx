@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import '../../scss/eyeCatcher.scss';
-import avatar from '../../resources/image/profile.png';
+import avatar from '../../resources/image/profile2.png';
 import { Link } from 'react-router-dom';
 import Luke from '../../resources/file/Luke.pdf';
 import Terminal from './TerminalEmu';
